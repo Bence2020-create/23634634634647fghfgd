@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Planex</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <style type="text/css">.disclaimer { display: none; }</style>
+    <script>
+      function loop() {
+      var hattervideo = document.getElementById("hattervideo");
+      var video = document.getElementById("video");
+      hattervideo.style.display ="block";
+      video.style.display ="block";
+      document.getElementById("hide").style.display = "none";
+      video.volume = 1, 0;
+      video.play()
+
+    }
+    </script>
+    </head>
+    <body onclick="loop()">
+      <div class="" id="hide">
+
+          <p style="position: fixed; transform: translate(-50%, -50%);"class="center c">...</p>
+      </div>
+      <div id="hattervideo" style="display: none;">
+
+        <video id="video" loop="">
+          <source src="./zene.mp4" type="video/mp4">
+        </video>
+        <p style="font-size: 20px; font-weight: 900; position: fixed; transform: translate(-50%, -50%);"class="center c">Planex</p>
+        <p style="position: fixed; transform: translate(-50%, -45%);"class="center c"><a href="https://discord.gg/UJMWFHAKFE" target="_blank">Discord</a></p>
+        <!-- <p style="position: fixed; transform: translate(-38%, -45%);"class="center c">Discord</p>
+ 
+        <p style="position: fixed; transform: translate(-62%, -45%);"class="center c">Discord</p>-->
+      </div>
+  </body>
+</html>
