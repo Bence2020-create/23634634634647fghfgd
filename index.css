@@ -1,17 +1,27 @@
 body{
     background: black;
 }
-
 .c {
     color: white;
     place-items: center;
     display: grid;
     font-family: 'Courier New', Courier, monospace;
 }
+p{
+    font-weight: 900;
+}
+p:hover{
+    transform: scale(1.3);
+}
 a{
     text-decoration: none;
-    color: blue;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover{
+    animation: text 1s ease-in-out infinite alternate;
+    color: blue;
+    transform: scale(1.3);
 }
 .center {
     top: 50%;
@@ -30,3 +40,25 @@ a{
     bottom: 0;
     filter: blur(7px);
 }
+.text {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: text 1s ease-in-out infinite alternate;
+  }
+@-webkit-keyframes text {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 35px #1E36F3, 0 0 20px #1E36F3, 0 0 25px #1E36F3, 0 0 30px #1E36F3, 0 0 35px #1E36F3;
+      }
+      
+      to {
+        text-shadow: 0 0 5px #fff, 0 0 15px #7684F2, 0 0 20px #7684F2, 0 0 25px #7684F2, 0 0 30px #7684F2, 0 0 35px #7684F2, 0 0 40px #7684F2;
+      }
+    }
+
+
+
+
+
+
+    
