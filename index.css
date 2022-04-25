@@ -17,7 +17,7 @@ a{
 a:hover{
     animation: text 1s ease-in-out infinite alternate;
     color: blue;
-    transform: scale(1.3);
+    transform: scale(1.4);
 }
 .center {
     top: 50%;
