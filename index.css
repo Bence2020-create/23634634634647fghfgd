@@ -1,8 +1,6 @@
+///
 body{
     background: black;
-}
-p:hover{
-    transform: scale(2.0);
 }
 .c {
     place-items: center;
@@ -54,11 +52,11 @@ a:hover{
         text-shadow: 0 0 5px #fff, 0 0 15px #7684F2, 0 0 20px #7684F2, 0 0 25px #7684F2, 0 0 30px #7684F2, 0 0 35px #7684F2, 0 0 40px #7684F2;
       }
     }
-h2{
-    animation: dot 0.5s ease-in-out infinite alternate;
-    color: white;
-    display: none;
-}
+    h2{
+        animation: dot 0.5s ease-in-out infinite alternate;
+        color: white;
+        display: none;
+    }
     @-webkit-keyframes dot {
         from {
             color: white;
@@ -69,5 +67,4 @@ h2{
             text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
         }
       }
-
       
